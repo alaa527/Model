@@ -1,0 +1,38 @@
+.pic{
+    position: relative;
+}
+.pic-caption{
+    position: absolute;
+    bottom:20px;
+    left:30px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    
+}
+img{
+    cursor: pointer;
+}
+.popuprgba{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.popupchild{
+     width: 45%;
+     height: 400px;
+     background-image:url(images/portfolio-1.jpg);
+     background-size: 100% 100%;
+     position: relative;
+}
+#close{
+    position: absolute;
+    right: 10px;
+top:20px
+}
